@@ -11,7 +11,7 @@
         }
 
         // call the action
-        $controller->{ $action }();
+//        $controller->{ $action }();
         $controller::$action();
     }
 
